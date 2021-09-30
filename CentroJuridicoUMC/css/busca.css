@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/05/2021, 14:35:25
+    Author     : Thain
+*/
+body {
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.busca {
+  margin: 1em 1em 3em;
+  padding: 1em;
+  border: 1px solid #1161ee;
+}
+
+.extra {
+  padding-top: .5em;
+  z-index: 10;
+}
+
+label {
+  padding-right: 1em;
+}
+
+
+.busca--efect-1 {
+  position: relative;
+}
+
+.busca--efect-1 .extra {
+  display: none;
+  position: absolute;
+  padding: .2em;
+  background: #fff;
+  bottom: -58%;
+  border: 1px solid #e5e5e5;
+  border-top-color: #005cbf;
+}
+
+.busca--efect-1:hover .extra,
+.busca--efect-1:focus .extra {
+  display: block;
+}
+
+
+.busca--efect-2 {
+  position: relative;
+}
+
+.busca--efect-2 .extra {
+  display: none;
+  position: absolute;
+  padding: .2em;
+  background: #fff;
+  bottom: -100%;
+  bottom: calc( -100% - .5em);
+ // border: 1px solid #e5e5e5;
+  border-top-color: #fff;
+}
+
+.busca--efect-2:hover .extra,
+.busca--efect-2:focus .extra{
+  display: block;
+}
+
+.busca--efect-2 select {
+  display: block;
+  width: 100%;
+  margin-bottom: .5em;
+}
+
+.btnBusca{
+    display: inline-block;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	min-width: 195px;
+	padding: 23px 20px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	//background: #fc0254;
+	color: #1F73B7;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+        color: #004085;
+        position:relative;
+        top:50%; left:50%;
+}
+.btnBusca:hover {
+	color: #0062cc;
+}
+

@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "href": {
+            "context": "input"
+        },
+        "loading": {
+            "context": "iframe"
+        }
+    }
+}
